@@ -1,0 +1,93 @@
+
+body {
+    background-color: teal; color: white; text-decoration: none;
+}
+
+
+h1 {
+    color: white; text-align: center; text-decoration: underline;
+}
+
+h2 {
+    color: rgb(0, 129, 129);
+    background-color: white;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    border-radius: 1px;
+    width:fit-content;
+    position: absolute;
+    top: 94px;
+    }
+
+    .list-style1 {
+        text-align: justify;
+        background-color: rgb(0, 165, 165);
+        margin: auto;
+        padding: 5px;
+        border-bottom: solid 2px rgb(26, 12, 150)
+            }
+
+.parag1 {
+    border: solid 1px white;
+    text-align: left;
+    padding: 10px;
+
+}    
+#INTRO {
+    border: 10px 10px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+.introducao {
+    background-color: rgb(240, 240, 240);
+    color: teal;
+    width: 50%;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: 80px;
+     
+    
+}                  
+.computador {
+
+display: inline-block;
+width: 40%;
+height: 200px;
+overflow-x: hidden;
+overflow-y: 80px;
+margin-bottom: 60px;
+float: right;
+
+
+}
+
+.html {
+    width: 50%;
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: auto;
+    float: right;
+}
+.css {
+    width: 50%;
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: auto;
+    float: right;
+}
+.javascript {
+    width: 50%;
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: auto;
+    float:right
+
+}
+
+.photo{
+    border-radius: 30px;
+    position:static;
+    left: 500px;
+    width: 150px;
+    margin-bottom: 60px;
+    }
