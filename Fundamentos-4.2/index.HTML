@@ -58,6 +58,69 @@
   <body>
     <script>
       // COLOQUE SEU CÓDIGO AQUI
+
+    // REQUISITO 01
+        const h1 = document.createElement('h1');
+        body.appendChild.add(h1);
+        h1.innerText = "TrybeTrip - Agência de Viagens";
+        document.body.appendChild(h1);
+
+    // REQUISITO 02
+        const mainContent = document.createElement ('main');
+        mainContent.className = 'main-content';
+        document.body.appendChild(mainContent);
+
+    // REQUISITO 03
+        const centerContent = document.createElement ('section');
+        centerContent.className = 'center-content';
+        mainContent.appendChild(centerContent);
+        
+    // REQUISITO 04  
+        const paragraph = document.createElement ('p');
+        paragraph.innerText = "Exercícios de fixação para aprender DOM e métodos de manipular, criar e remover elementos HTML pelo Javascript";
+        centerContent.appendChild (paragraph);
+        
+    // REQUISITO 05
+        const leftContent = document.createElement ('section');
+        leftContent.className = 'left-content';
+        mainContent.appendChild (leftContent);
+
+    // REQUISITO 06
+        const rightContent = document.createElement ('section');
+        rightContent.className = 'right-content';
+        mainContent.appendChild (rightContent);
+         
+    // REQUISTO 07
+        const img = document.createElement ('img') ;
+        img.src = 'https://picsum.photos/200';
+        img.className = 'small-image';
+        leftContent.appendChild (img);
+
+    // REQUISITO 08
+        const ul = document.createElement ('ul');
+        const numbers = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+
+        for (index = 0; index < numbers.length; index += 1){
+            const li = document.createElement ('li');
+            li.innerText = numbers[index];
+            ul.appendChild(li);
+
+        }
+        rightContent.appendChild(ul);
+
+    // REQUISITO 09
+        for (let index = 0; index < 3; index += 1){
+            const h3 = document.createElement ('h3');
+            h3.innerText = index;
+            mainContent.appendChild (h3);
+        }    
+
+
+
+        
+
+
+
     </script>
   </body>
 </html>
